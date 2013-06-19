@@ -56,6 +56,7 @@
     var qLoptions = {
         onComplete: function () {},
         backgroundColor: "#000",
+        backgroundImage: false,
         barColor: "#fff",
         overlayId: 'qLoverlay',
         barHeight: 1,
@@ -182,6 +183,7 @@
             width: "100%",
             height: "100%",
             backgroundColor: qLoptions.backgroundColor,
+            backgroundImage: qLoptions.backgroundImage,
             backgroundPosition: "fixed",
             position: overlayPosition,
             zIndex: 666999,

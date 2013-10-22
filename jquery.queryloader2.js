@@ -76,7 +76,7 @@
         };
 
         base.addImageForPreload = function(url) {
-            var image = $("<img />").attr("src", url);
+            var image = $("img").attr("src", url);
             //binding load before the DOM adding
             base.bindLoadEvent(image);
             image.appendTo(base.qLimageContainer);

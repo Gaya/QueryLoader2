@@ -24,7 +24,7 @@ OverlayLoader.prototype.createOverlay = function () {
 	this.container = $("<div id='" + this.parent.options.overlayId + "'></div>").css({
 		width: "100%",
 		height: "100%",
-		backgroundColor: this.parent.options.backgroundColor,
+		background: this.parent.options.backgroundColor,
 		backgroundPosition: "fixed",
 		position: overlayPosition,
 		zIndex: 666999, //very high!
@@ -36,7 +36,7 @@ OverlayLoader.prototype.createOverlay = function () {
 	this.loadbar = $("<div id='qLbar'></div>").css({
 		height: this.parent.options.barHeight + "px",
 		marginTop: "-" + (this.parent.options.barHeight / 2) + "px",
-		backgroundColor: this.parent.options.barColor,
+		background: this.parent.options.barColor,
 		width: "0%",
 		position: "absolute",
 		top: "50%"

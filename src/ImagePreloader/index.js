@@ -29,7 +29,7 @@ var ImagePreloader = {
     this.sources = this.getImageSrcs(element);
 
     if (this.sources.length === 0) {
-      this.parent.updateProgress(1,1);
+      this.parent.updateProgress(1, 1);
     }
 
     for (var i = 0; i < this.sources.length; i++) {

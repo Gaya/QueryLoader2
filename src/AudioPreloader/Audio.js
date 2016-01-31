@@ -8,7 +8,7 @@ var QueryLoaderAudio = {
   },
 
   preload: function(cb) {
-    ImageLoaded(this.element, function(err, alreadyLoaded) {
+    AudioLoaded(this.element, function(err, alreadyLoaded) {
       cb(err, alreadyLoaded);
     });
   },

@@ -2,7 +2,8 @@ QueryLoader2
 ==============
 QueryLoader2 serves the main purpose of pre-loading the images on your website by showing an overlay and a loading bar. It automatically fetches all your images and background images and pre-loads them before showing the web page.
 
-[![Code Climate](https://codeclimate.com/github/Gaya/QueryLoader2/badges/gpa.svg)](https://codeclimate.com/github/Gaya/QueryLoader2)
+[![Code Climate](https://codeclimate.com/github/Gaya/QueryLoader2/badges/gpa.svg)](https://codeclimate.com/github/Gaya/QueryLoader2)[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGaya%2Fqueryloader2.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FGaya%2Fqueryloader2?ref=badge_shield)
+
 [![Build Status](https://travis-ci.org/Gaya/queryloader2.svg?branch=master)](https://travis-ci.org/Gaya/queryloader2)
 
 Compatibility
@@ -120,3 +121,7 @@ Default: none
 **onProgress**
 `function` this function is called when an image is loaded. Get parameters `percentage`, `imagesLoaded`, `totalImages`.
 Default: none
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGaya%2Fqueryloader2.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FGaya%2Fqueryloader2?ref=badge_large)

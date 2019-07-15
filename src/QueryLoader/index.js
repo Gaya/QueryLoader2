@@ -86,6 +86,8 @@ var QueryLoader = {
     this.overlay.element.style.opacity = 0;
 
     window.setTimeout(this.destroy.bind(this), this.options.fadeOutTime);
+
+    document.getElementById('qLtempOverlay').remove();
   },
 
   destroy: function() {
